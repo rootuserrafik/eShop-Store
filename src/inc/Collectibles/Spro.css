@@ -1,0 +1,92 @@
+.leftArea{
+    flex: 0.5;
+}
+.rightArea{
+    flex: 0.5;
+}
+.leftArea{
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid lightslategrey;
+}
+.lgImgArea{
+    width: 100%;
+}
+.cerasolSliderItem{
+    width: 100px;
+    height: auto;
+    padding: 12px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.cerasolSliderItem:hover{
+    padding: 0;
+}
+.rightArea{
+    padding-left: 10px;
+    margin-left: 10px;
+}
+.rightArea ul{
+    padding: 6px 0;
+    border-bottom: 1px solid lightslategrey;
+}
+.selectionOption{
+    text-transform: capitalize;
+
+}
+.circle{
+    flex: 1;
+}
+li+li.circle{
+    border: 1px solid orange;
+    color: orange;
+    padding: 8px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 2px;
+}
+li+li.circle:hover,
+li.circle.selected{
+    background-color: orange;
+    color: #fff;
+}
+.ActionBtn{
+    padding: 14px;
+    flex: 0.5;
+    text-align: center;
+    background-color: orange;
+    color: #fff;
+    margin: 13px 0;
+    cursor: pointer;
+    transition: 0.4s;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+}
+.buyBtn{
+    border:1px solid orange ;
+    background-color: rgba(255, 255, 255, 0.007);
+    color: orange;
+    margin-left:1px ;
+}
+.addToCart:hover{
+    border:1px solid orange ;
+    background-color: rgba(255, 255, 255, 0.007);
+    color: orange;
+    margin-right:1px ;
+}
+.buyBtn:hover{
+    background-color: orange;
+    color: #fff;
+}
+
+
+
+.userInterButtom{
+    width: 540px;
+    min-height: 200px;
+}
+.userInterButtom img{
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,38 @@
+.HeaderTop__Bar{
+    padding: 10px 0;
+}
+.Logo{
+    width: 50px;
+    height: auto;
+    
+}
+.topMenuIcons{
+    margin: 10px;
+}
+.topMenuIcons:hover{
+    cursor: pointer;
+}
+.topMenuIcons path{
+    fill: lightslategray;
+    transition: 0.1s;
+}
+.topMenuIcons path:hover{
+    fill: brown;
+}
+.shopCountOps{
+    position: relative;
+}
+.shopCount {
+    position: absolute;
+    right: 55px;
+    top: 10px;
+    content: "";
+    background-color: red;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding: 3px 0;
+}
